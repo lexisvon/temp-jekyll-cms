@@ -9,6 +9,8 @@ collections:
     label: "Friend"
     folder: "_friends"
     create: true
+    slug: "{{name_slug}}"
     fields: 
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Name Slug", name: "name_slug", widget: "string"}
       - {label: "Location", name: "location", widget: "string"}
